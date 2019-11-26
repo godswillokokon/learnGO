@@ -12,6 +12,7 @@ func avg(nums ...float64) float64 {
 	fmt.Printf("%T \n", nums)
 	// this sets thr var total to 0
 	var total float64
+	// no need for counter because we will be using range and we dont need it
 	for _, a := range nums {
 		total += a
 	}
