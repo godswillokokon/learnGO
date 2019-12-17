@@ -10,6 +10,6 @@ func main() {
 }
 
 func changeMe(z []string) {
-	z[0] = "Mofo"
+	z[0] = "Mafo"
 	fmt.Println(z)
 }
